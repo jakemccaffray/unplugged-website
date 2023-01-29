@@ -288,6 +288,7 @@
      .reviews h2 {
       margin-bottom: 40px;
      }
+
      .reviews h3 {
       width: 53%;
       margin: 20px 0;
@@ -602,9 +603,61 @@
       width: 100%;
     }
 
-
+    /******* DESKTOP TIME **********/
   @media only screen and (min-width: 1200px) {
+    .content-wrapper {
+      max-width: 960px;
+    }
 
+    header {
+      margin: 10px 0;
+    }
+
+    .hero-area {
+      height: 600px;
+    }
+
+    .hero-area h1 {
+      width: 60%;
+    }
+
+    aside .content-wrapper {
+      justify-content: space-around;
+    }
+
+    aside .content-wrapper .form-description,
+    aside .content-wrapper .form {
+      width: 30%;
+    }
+
+    .features h2 {
+      width: 90%;
+    }
+
+    .features article {
+      flex-basis: 33%;
+    }
+    
+    .reviews h2 {
+      margin-bottom: 50px;
+     }
+     
+    .review article div {
+      width: 42%; /* ??? */
+    }
+
+/*  ABOUT PAGE - Desktop */
+    
+    .mission h2,
+    .contact-section .content-wrapper h2 {
+        width: 95%;
+    }
+
+/* FAQ - Desktop */
+
+    .faq h2 {
+      width: 100%;
+    }
   }
   /* ==========================================================================
      Print styles.
@@ -680,5 +733,4 @@
       page-break-after: avoid;
     }
   }
-  
   
