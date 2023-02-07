@@ -130,6 +130,14 @@
     address {
       font-style: normal;
     }
+
+    img {
+      width: 100%;
+    }
+
+    figure {
+      margin: 0;
+    }
  
     /* ------------- Base Header - Footer Styles --------*/
     
@@ -156,6 +164,14 @@
     
     header .content-wrapper {
       margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+    }
+
+    header figure {
+      width: 60%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -246,6 +262,9 @@
       display: flex;
       justify-content: center;
       flex-flow: row wrap;
+      background: url('../img/unplugged-retreat.jpg') center no-repeat #333;
+      background-size: cover;
+      height: 500px;
      }
   
      .hero-area .content-wrapper {
@@ -326,6 +345,8 @@
       display: flex;
       justify-content: center;
       flex-flow: row wrap;
+      background: url('../img/unplugged-retreat-features.jpg') center no-repeat #333;
+      background-size: cover;
      }
     
      .features h2 {
@@ -355,7 +376,7 @@
       display: flex;
       justify-content: center;
       flex-flow: row wrap;
-      background-color: #527158;
+      background-color: #2a423a;
      }
   
      .reviews .content-wrapper {
@@ -573,6 +594,10 @@
       justify-content: space-between;
     }
 
+    header figure {
+      width: 30%;
+    }
+
     header nav {
       width: 20%;
     }
@@ -615,6 +640,10 @@
     }
 
     /* Hero Area */
+
+    .hero-area {
+      height: 600px;
+    }
 
     .hero-area h1 {
       font-size: 3em;
@@ -668,6 +697,10 @@
     .reviews article {
       display: flex;
       justify-content: space-between;
+    }
+
+    .reviews figure {
+      width: 49%;
     }
   
     .lacrue-info {
@@ -770,6 +803,10 @@
       flex-basis: 33%;
     }
     
+    .reviews figure {
+      width: 49%;
+    }
+
     .reviews h2 {
       margin-bottom: 50px;
      }
