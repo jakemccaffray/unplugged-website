@@ -417,7 +417,7 @@
 
     .map figure {
       position: relative;
-      padding-bottom: 75%;
+      padding-bottom: 125%;
       height: 0;
       overflow: hidden;
       width: 100%;
@@ -735,6 +735,10 @@
       width: 45%;
     }
 
+    .map figure {
+      padding-bottom: 50%;
+    }
+
     .contact-section .content-wrapper h2 {
       width: 80%;
     }
@@ -839,6 +843,10 @@
 
     .mission h2 {
       font-size: 3em;
+    }
+
+    .map figure {
+      padding-bottom: 37%;
     }
 
 /* FAQ - Desktop */
