@@ -123,7 +123,7 @@
     }
 
     p {
-      font-size: 0.875;
+      font-size: 0.875em;
       line-height: 1.125;  /* ??? */
     }
     
@@ -364,6 +364,15 @@
       justify-content: center;
       align-items: center;
       flex-flow: row wrap;
+     }
+
+     .features-items {
+      text-align: center;
+     }
+
+     .features i {
+      font-size: 3.75em;
+      margin-bottom: 40px;
      }
   
      .features-items p {
