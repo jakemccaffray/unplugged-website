@@ -188,13 +188,12 @@
   
      header nav {
       width: 60%;
-      margin-top: 10px;
       display: flex;
       justify-content: space-around;
       align-items: center;
       flex-flow: row wrap;
       text-transform: uppercase;
-      font-size: 1.125em;
+      font-size: 1.25em;
       font-weight: bold;
      }
 
@@ -202,6 +201,8 @@
       width: 100%;
       display: flex;
       justify-content: space-around;
+      margin: 0;
+      padding-inline-start: 0;
      }
 
        /* Footer Styles */
@@ -227,7 +228,6 @@
   
     footer .contact {
       margin-bottom: 50px;
-
     }
   
     footer .social {
@@ -248,10 +248,12 @@
       width: 40px;
       height: 40px;
       border-radius: 50%;
+      font-size: 1.15em;
     }
 
     footer p {
       margin: 0;
+      line-height: 1.285;
     }
 
     .copyright {
@@ -281,6 +283,7 @@
       font-family: 'Poppins', Helvetica, Arial, sans-serif;
       line-height: 43px;
       font-weight: 500;
+      margin: 0;
      }
   
      /* ----- Newsletter ------ */
@@ -355,6 +358,7 @@
      }
     
      .features h2 {
+      margin: 0;
       margin-bottom: 60px;
      }
   
@@ -393,12 +397,11 @@
       background-color: #2a423a;
      }
   
-     .reviews .content-wrapper {
-      padding: 50px 0;
-     }
      
      .reviews h2 {
+      margin: 0;
       margin-bottom: 40px;
+      line-height: 1;
      }
 
      .reviews h3 {
@@ -421,11 +424,15 @@
 
     .mission .content-wrapper {}
 
-    .mission h2 {}
+    .mission h2 {
+      margin: 0;
+    }
 
     .mission-content {}
 
-    .mission p {}
+    .mission p {
+      line-height: 1.285;
+    }
 
     /*  Map */
 
@@ -458,7 +465,9 @@
 
     .contact-section .content-wrapper {}
 
-    .contact-section h2 {}
+    .contact-section h2 {
+      margin-top: 0;
+    }
 
     .contact-content {
       margin: 0;
@@ -488,7 +497,17 @@
   }
 
    .faq h2 {
-    margin-bottom: 40px;
+    margin: 0 0 40px 0;
+    line-height: 1;
+   }
+
+   .faq h4 {
+    line-height: 1.35;
+    margin: 15px 0 15px 0;
+   }
+
+   .faq p {
+    line-height: 1.25;
    }
 
    .faq-content {
@@ -606,11 +625,11 @@
       font-size: 1.5em;
       line-height: 30px;
     }
-
+    
     p {
-      font-size: 1.125em;
-      line-height: 24px;
-    }
+      font-size: 0.875em;
+      line-height: 1.285;
+    } 
 
      /* Header */ 
     header {
@@ -643,7 +662,7 @@
 
     footer .content-wrapper {
       width: 65%;
-      margin: 100px 0;
+      margin: 120px 0 100px 0;
     }
 
     footer h4 {
@@ -661,7 +680,25 @@
     }
 
     footer .contact {
-      margin-bottom: 0;
+      margin: 0;
+    }
+
+    footer .social {
+      width: 37%;
+    }
+
+    footer .social-icons p {
+      font-size: .875em;
+    }
+
+    footer h4 {
+      margin: 0;
+      margin-bottom: 40px;
+    }
+
+    footer .social-icons {
+      justify-content: space-between;
+      font-size: 1.3em;
     }
 
     footer .copyright {
@@ -700,12 +737,23 @@
       margin: 0;
     }
 
+    .form-description p {
+    }
+
     .form {
       width: 39%;
       margin: 0;
     }
 
     /* Features */
+
+    .features {
+      margin: 0;
+    }
+
+    .features h2 {
+      margin-bottom: 20px;
+    }
 
     .features article {
       display: flex;
@@ -715,8 +763,14 @@
       flex-basis: 50%;
     }
 
+    .features i {
+      font-size: 3em;
+    }
+
     .features .features-item-description {
-      width: 50%;
+      width: 62%;
+      font-size: 0.875em;
+      line-height: 1.285;
     }
     
     
@@ -728,12 +782,24 @@
       justify-content: space-between;
     }
 
+    .reviews h2 {
+      width: 77%;
+    }
+
     .reviews figure {
       width: 49%;
+    }
+
+    .reviews h3 {
+      margin: 0;
+      width: 77%;
     }
   
     .lacrue-info {
       width: 49%;
+     }
+
+     .reviews p {
      }
   
     /*** ABOUT PAGE ***/
@@ -750,10 +816,11 @@
     }
 
     .map figure {
-      padding-bottom: 50%;
+      padding-bottom: 45%;
     }
 
     .contact-section .content-wrapper h2 {
+      margin: 0;
       width: 80%;
     }
 
@@ -761,6 +828,15 @@
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
+    }
+
+    .contact-content h4 {
+      margin: 20px 0;
+      font-size: 1.5em;
+    }
+
+    .contact-content p {
+      margin-bottom: 0;
     }
 
 
@@ -779,9 +855,15 @@
       width: 100%;
     }
 
-    .faq h4 p {
+    .faq h4 {
       font-size: 0.875em;
-      line-height: 15.75px;
+      line-height: 1.125;
+      margin: 20px 0 20px 0;
+    }
+
+    .faq p {
+      font-size: 0.875em;
+      line-height: 1.125;
     }
 
     
@@ -799,6 +881,7 @@
     h3,
     h4 {
       font-size: 1.875em;
+      line-height: 36px;
     }
 
     p {
@@ -807,7 +890,28 @@
     }
 
     header {
-      padding: 10px 0;
+      padding: 15px 0;
+    }
+
+    footer .content-wrapper {
+      margin: 100px 0;
+    }
+
+    footer h4 {
+      font-size: 1.875em;
+      margin-top: 20px;
+    }
+
+    footer p {
+      line-height: 24px;
+    }
+
+    footer .social {
+      width: 25%;
+    }
+
+    footer .social-icons p {
+      font-size: 1.125em;
     }
 
     .hero-area {
@@ -815,8 +919,9 @@
     }
 
     .hero-area h1 {
-      width: 60%;
+      width: 70%;
       font-size: 3.75em;
+      line-height: 3.75rem;
     }
 
     aside .content-wrapper {
@@ -828,6 +933,10 @@
       width: 30%;
     }
 
+    .form-description p {
+      line-height: 24px;
+    }
+
     .features h2 {
       width: 90%;
     }
@@ -835,15 +944,30 @@
     .features article {
       flex-basis: 33%;
     }
+
+    .features .features-item-description {
+      font-size: 1.125em;
+      line-height: 1.32;
+    }
+
+    .features i {
+      font-size: 3.5em;
+    }
+
     
     .reviews figure {
       width: 49%;
     }
 
     .reviews h2 {
-      margin-bottom: 50px;
+      margin-bottom: 80px;
      }
      
+    .lacrue-info {
+      margin-left: 10px;
+      width: 42%;
+    }
+
     .review article div {
       width: 42%; /* ??? */
     }
@@ -857,10 +981,25 @@
 
     .mission h2 {
       font-size: 3em;
+      line-height: 1.333;
+    }
+
+    .mission p {
+      line-height: 1.333;
     }
 
     .map figure {
       padding-bottom: 37%;
+    }
+
+    .contact-section h2 {
+      font-size: 3em;
+      line-height: 1.333;
+    }
+
+    .contact-section h4 {
+      font-size: 1.875em;
+      margin: 23px 0;
     }
 
 /* FAQ - Desktop */
@@ -870,7 +1009,12 @@
       font-size: 3em;
     }
 
-    .faq h4, p {
+    .faq h4 {
+      font-size: 1.125em;
+      line-height: 18px;
+    }
+
+    .faq p {
       font-size: 1.125em;
       line-height: 18px;
     }
