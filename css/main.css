@@ -222,7 +222,7 @@
  
     }
 
-    .footer h4 {
+    .footer-content h4 {
       margin: 20px 0;
     }
   
@@ -283,7 +283,7 @@
       font-family: 'Poppins', Helvetica, Arial, sans-serif;
       line-height: 43px;
       font-weight: 500;
-      margin: 0;
+      margin: 25px 0 0 0;
      }
   
      /* ----- Newsletter ------ */
@@ -386,6 +386,7 @@
   
      .features-items p {
       margin: 0;
+      line-height: 1.29;
      }
 
      /* ---- Reviews ---- */
@@ -405,11 +406,13 @@
      }
 
      .reviews h3 {
-      width: 53%;
+      width: 55%;
       margin: 20px 0;
      }
   
-     .lacrue-info {}
+     .reviews p {
+      line-height: 1.275;
+     }
   
   
     /* ------- About Page --------- */
@@ -463,14 +466,24 @@
       background-color: #2a423a;
     }
 
-    .contact-section .content-wrapper {}
+    .contact-section .content-wrapper {
+      margin-bottom: 35px;
+    }
 
     .contact-section h2 {
-      margin-top: 0;
+      margin: 0 0 20px 0;
     }
 
     .contact-content {
       margin: 0;
+    }
+
+    .contact-content h4 {
+      margin: 10px 0 20px 0;
+    }
+
+    .contact-content p {
+      line-height: 1.333;
     }
 
     .general-contact {}
@@ -502,12 +515,12 @@
    }
 
    .faq h4 {
-    line-height: 1.35;
-    margin: 15px 0 15px 0;
+    line-height: 1.3;
+    margin: 20px 0 20px 0;
    }
 
    .faq p {
-    line-height: 1.25;
+    line-height: 1.285;
    }
 
    .faq-content {
@@ -684,7 +697,7 @@
     }
 
     footer .social {
-      width: 37%;
+      width: 31%;
     }
 
     footer .social-icons p {
